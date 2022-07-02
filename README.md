@@ -1,4 +1,4 @@
-## About Tufu ![codeship](https://codeship.com/projects/2eaa8030-8569-0134-129e-66d2a96e065a/status?branch=master)
+## About Tufu-Framework
 
 Easy to use, fast **extendable** PHP Framework, like the one you ever missed.
 
