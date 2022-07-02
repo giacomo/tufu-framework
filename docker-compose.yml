@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  tufy_db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "tufu"
+      MYSQL_DATABASE: "tufu"
+      MYSQL_USER: "tufu"
+      MYSQL_PASSWORD: "tufu"
+    ports:
+      - "30306:3306"
+    volumes:
+      - tufy_db_data:/var/lib/mysql
+
+volumes:
+  tufy_db_data:
+    driver: local

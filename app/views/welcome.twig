@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tufu Framework</title>
+    <meta name="description" content="Tiny small framework ! Tufu-Framework">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+</head>
+<body>
+    <!--[if lte IE 9]>
+        <div class="message is-danger">
+            <div class="message-header">
+                Warning
+                <button class="delete"></button>
+            </div>
+            <div class="message-body">
+                <p class="browserupgrade">
+                    You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.
+                </p>
+            </div>
+        </div>
+    <![endif]-->
+
+    <section class="hero is-info is-medium">
+        <!-- Hero header: will stick at the top -->
+        <div class="hero-head">
+            <header class="nav">
+                <div class="container">
+                    <div class="nav-left">
+                        <a class="nav-item content is-large">
+                            <span>Tufu-Framework</span>
+                        </a>
+                    </div>
+                    <span class="nav-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <div class="nav-right nav-menu">
+                        <a class="nav-item is-active">
+                            Home
+                        </a>
+                        <span class="nav-item">
+                            <a class="button is-danger is-inverted" href="https://github.com/giacomo/tufu-framework" target="_blank">
+                              <span class="icon">
+                                <i class="fa fa-github"></i>
+                              </span>
+                              <span>Github</span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Welcome to Tufu!
+                </h1>
+                <h2 class="subtitle">
+                    Easy to use, fast <strong>extendable</strong> small PHP Framework, like the one you ever missed.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <article class="message">
+                <div class="message-body">
+                    <button class="delete is-pulled-right"></button>
+                    <p class="content has-text-centered">
+                        This project is still <strong>under active development</strong>. New features are still being added to this project.<br>
+                        This project has a maintainer that actively monitors its issue queue and responds in a timely manner.
+                        This means that bug reports, tasks, feature requests and support request posted in the project's issue should receive timely attention from project's maintainers. Other community members are also welcome to resolve issues posted to the issue queue.
+                    </p>
+                </div>
+            </article>
+            <div class="heading has-text-centered">
+                <h2 class="subtitle">Core features</h2>
+            </div>
+            <hr/>
+            <article class="content is-medium has-text-centered">
+                <p>
+                    <i class="fa fa-graduation-cap icon is-large" aria-hidden="true"></i>
+                </p>
+                <p>Easy to learn while using <strong>Twig</strong> and <strong>Symfony</strong> components.</p>
+            </article>
+            <hr/>
+            <article class="content is-medium has-text-centered">
+                <p>
+                    <i class="fa fa-database icon is-large" aria-hidden="true"></i>
+                </p>
+                <p>Simple <strong>Laravel</strong> inspired migrations - <strong>Eloquent</strong> as ORM.</p>
+            </article>
+            <hr/>
+            <article class="content is-medium has-text-centered">
+                <p>
+                    <i class="fa fa-code icon is-large" aria-hidden="true"></i>
+                </p>
+                <p>You like service oriented programming or traditional MVC? You decide.</p>
+            </article>
+            <hr/>
+            <article class="content is-medium has-text-centered">
+                <p>
+                    <i class="fa fa-terminal icon is-large" aria-hidden="true"></i>
+                </p>
+                <p>Use <strong>Tufy</strong> to generate skeletons.</p>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Tufu</strong> by <a href="http://ready24it.eu">Giacomo Barbalinardo</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/giacomo/tufu-framework">
+                        <i class="fa fa-github-square"></i>
+                    </a>
+                    <a class="icon" href="https://www.xing.com/profile/Giacomo_Barbalinardo">
+                        <i class="fa fa-xing-square"></i>
+                    </a>
+                </p>
+                <p class="made-with content is-small is-unselectable is-disabled">
+                    MADE WITH <i class="icon is-small fa fa-heartbeat"></i> & <i class="icon is-small fa fa-windows"></i> BY ME
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="footer-button button is-hidden">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+</body>
+</html>

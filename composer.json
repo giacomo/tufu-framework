@@ -1,0 +1,28 @@
+{
+  "name": "giacomo/tufu-framework",
+  "description": "Easy to use, fast extendable small PHP Framework, like the one you ever missed.",
+  "type": "framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Giacomo Barbalinardo",
+      "email": "info@ready24it.eu"
+    }
+  ],
+  "require": {
+    "giacomo/tufu-core": "^0.6.8"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "App\\Controller\\" : "app/controllers",
+      "App\\Model\\" : "app/models",
+      "App\\Service\\": "app/services",
+      "App\\Interceptor\\": "app/interceptors"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"copy('.env.example', '.env');\""
+    ]
+  }
+}
