@@ -2,6 +2,7 @@
   "name": "giacomo/tufu-framework",
   "description": "Easy to use, fast extendable small PHP Framework, like the one you ever missed.",
   "type": "framework",
+  "version": "0.6.8",
   "license": "MIT",
   "authors": [
     {

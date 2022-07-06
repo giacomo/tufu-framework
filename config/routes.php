@@ -2,7 +2,7 @@
 /**
  * Project      tufu
  * @author      Giacomo Barbalinardo <info@ready24it.eu>
- * @copyright   2015
+ * @copyright   2022
  */
 
 use Tufu\Core\RouteManager;
